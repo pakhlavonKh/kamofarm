@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+        <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="img/kamoFavi.png">
+        
+        <title>KAMOFARM – Подписка на продукты</title>
+    </head>
+
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link scroll-link"><span>01</span>О нас <span></span></a></li>
+                    <li class="navigation__item"><a href="#how" class="navigation__link scroll-link"><span>02</span>Как это работает</a></li>
+                    <li class="navigation__item"><a href="#tariffs" class="navigation__link scroll-link"><span>03</span>Тарифы</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link scroll-link"><span>04</span>Подписаться</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/kamoLogo.png" alt="Logo" class="header__logo">
+            </div>
+
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">KAMOFARM</span>
+                    <span class="heading-primary--sub">Подпишитесь и получайте свежие продукты в назначенное время без лишних вопросов!</span>
+                </h1>
+
+                <a href="#tariffs" class="btn btn--white btn--animated scroll-link" id="our_tariffs">Наши тарифы</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-about" id="about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Немного о нас
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
+                            ducimus quam nisi exercitationem omnis earum qui.
+                        </p>
+
+                        <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
+                        </p>
+
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+
+                            <img srcset="img/farm-1.jpg 300w, img/farm-1.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 1"
+                                 class="composition__photo composition__photo--p1"
+                                 src="img/farm-1.jpg">
+
+                            <img srcset="img/farm-2.jpg 300w, img/farm-2.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 2"
+                                 class="composition__photo composition__photo--p2"
+                                 src="img/farm-2.jpg">
+
+                            <img srcset="img/farm-3.jpg 300w, img/farm-3.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 3"
+                                 class="composition__photo composition__photo--p3"
+                                 src="img/farm-3.jpg">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-features" id="how">
+                
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Как это работает?
+                    </h2>
+                </div>
+                
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fa-solid fa-1"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Шаг 1</h3>
+                            <p class="feature-box__text">
+                                Выберите подходящий тариф на странице.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fa-solid fa-2"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Шаг 2</h3>
+                            <p class="feature-box__text">
+                                Заполните короткую форму заказа (имя, номер, адрес, тариф, дата, время).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fa-solid fa-3"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Шаг 3</h3>
+                             <p class="feature-box__text">
+                                Готово! Мы свяжемся с вами для подтверждения и оплаты.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-tours" id="tariffs">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Доступные тарифы
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-3">
+                       <div class="card">
+                           <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">Мини</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1л молока</li> 
+                                        <li>6 яиц</li>
+                                    </ul>
+                                </div>
+                           </div>
+                           <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Всего</p>
+                                        <p class="card__price-value">50,000 UZS</p>
+                                    </div>
+                                    <a href="#section-book" class="btn btn--white scroll-link">Заказать сейчас</a>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">Семейный</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>2л молока</li>
+                                        <li>12 яиц</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Всего</p>
+                                        <p class="card__price-value">100,000 UZS</p>
+                                    </div>
+                                    <a href="#section-book" class="btn btn--white scroll-link">Заказать сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">Макси</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>4л молока</li>
+                                        <li>24 яйца</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Всего</p>
+                                        <p class="card__price-value">150,000 UZS</p>
+                                    </div>
+                                    <a href="#section-book" class="btn btn--white scroll-link">Заказать сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-book" id="section-book">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="https://formsubmit.co/76khwmidov@gmail.com" class="form" method="post">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        Оформить подписку
+                                    </h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Ваше имя:" id="name" required>
+                                    <label for="name" class="form__label">Ваше имя</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="phone" class="form__input" placeholder="Телефон:" id="phone" required>
+                                    <label for="phone" class="form__label">Телефон</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="address" class="form__input" placeholder="Адрес:" id="address" required>
+                                    <label for="address" class="form__label">Адрес</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="time" class="form__input" placeholder="Время:" id="time" required min="06:00" max="22:00">
+                                    <label for="time" class="form__label">Время</label>
+                                </div>
+                                <div class="tag-container" id="selected-tags"></div>
+                                <div class="form__group" id="weekday__group">
+                                    <select id="weekday" name="weekday"  class="form__input"  >
+                                        <option value="select" disabled selected>Выберите день недели:</option>
+                                        <option value="monday">Понедельник</option>
+                                        <option value="tuesday">Вторник</option>
+                                        <option value="wednesday">Среда</option>
+                                        <option value="thursday">Четверг</option>
+                                        <option value="friday">Пятница</option>
+                                        <option value="saturday">Суббота</option>
+                                        <option value="sunday">Воскресенье</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form__group u-margin-bottom-medium" id="radio__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="mini" name="size" readonly>
+                                        <label for="mini" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            МИНИ
+                                        </label>
+                                    </div>
+
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="fam" name="size">
+                                        <label for="fam" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            СЕМЕЙНЫЙ
+                                        </label>
+                                    </div>
+
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="max" name="size">
+                                        <label for="max" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            МАКСИ
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form__group" id="sub">
+                                    <button class="btn btn--green">Подписаться</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contact">
+            <div class="footer__logo-box">
+
+                <picture class="footer__logo">
+                    <img class="footer__logo" alt="Full logo" src="img/kamoLogo.png">
+                </picture>
+
+
+                
+            </div>
+            <div class="row">
+                    <div class="footer__navigation">
+                        <a href="#" class="footer__link"><i class="far fa-envelope"></i></a>
+                        <a href="#" class="footer__link"><i class="fab fa-telegram"></i></a>
+                        <a href="tel:" class="footer__link"><i class="fas fa-phone"></i></a>
+                    </div>
+                    <p class="footer__copyright">
+                        Связаться с нами можно в любое время, любым из трех представленных способов!
+                    </p>
+                
+            </div>
+        </footer>
+            <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navCheckbox = document.getElementById('navi-toggle');
+        const navLinks = document.querySelectorAll('.navigation__link');
+
+        if (navCheckbox && navLinks.length > 0) {
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    // Uncheck the checkbox to close the menu
+                    navCheckbox.checked = false;
+                    
+                    // Smooth scroll to the target section
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        } else {
+            console.log('Error: Checkbox or links not found. Check your HTML structure.');
+        }
+    });
+    const select = document.getElementById('weekday');
+  const tagContainer = document.getElementById('selected-tags');
+  const selected = new Set();
+
+  select.addEventListener('change', () => {
+    const value = select.value;
+    if (!selected.has(value)) {
+      selected.add(value);
+
+      const tag = document.createElement('div');
+      tag.className = 'tag';
+      tag.innerHTML = `${value} <button onclick="this.parentElement.remove(); selected.delete('${value}')">&times;</button>`;
+      tagContainer.appendChild(tag);
+    }
+
+    // Reset select so it can be re-used
+    select.value = '';
+  });
+</script>
+    </body>
+</html>
